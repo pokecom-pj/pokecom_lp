@@ -73,7 +73,7 @@ export const OverviewSection = (): JSX.Element => {
                 <img
                   className="w-full max-w-[577px] h-auto object-cover"
                   alt="Tablet interface showing the application"
-                  src="/----ipad-removebg-preview-1.png"
+                  src="./----ipad-removebg-preview-1.png"
                 />
               </div>
             </AnimatedSection>
