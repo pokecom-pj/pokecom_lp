@@ -29,5 +29,6 @@
   },
   "alias": {
     "@/*": "./src/components/ui/$1"
-  }
+  },
+  "homepage": "https://pokecom-pj.github.io/pokecom_lp"
 }
