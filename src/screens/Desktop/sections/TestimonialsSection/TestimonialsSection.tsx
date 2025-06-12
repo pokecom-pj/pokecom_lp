@@ -71,13 +71,13 @@ const HeadquartersImage: React.FC = () => {
         className="hidden md:block absolute w-[413px] h-[413px] top-[353px] right-[76px] object-cover rounded-[20px] transition-all duration-300 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] hover:scale-[1.02] animate-fadeInUp"
         style={{ animationDelay: '0.9s' }}
         alt="Pokecom shelter headquarters"
-        src="/-----pokecom-pokecom-shelter-headquarters-1.png"
+        src="./-----pokecom-pokecom-shelter-headquarters-1.png"
       />
       <img
         className="block md:hidden w-1/4 mx-auto mt-8 rounded-[20px] relative z-10 cursor-pointer hover:opacity-90 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] hover:scale-[1.02] transition-all duration-300 animate-fadeInUp"
         style={{ animationDelay: '0.9s' }}
         alt="Pokecom shelter headquarters"
-        src="/-----pokecom-pokecom-shelter-headquarters-1.png"
+        src="./-----pokecom-pokecom-shelter-headquarters-1.png"
         onClick={handleImageClick}
       />
     </>
