@@ -93,19 +93,18 @@ const CTAButton: React.FC = () => {
     <>
       <div className="hidden md:block absolute bottom-[94px] left-[138px]">
         <Button 
-          className="w-[459px] h-[86px] bg-gradient-to-r from-[#004aad] to-[#0056c7] rounded-[20px] border-[5px] border-solid border-white text-white text-[32px] font-bold font-['Inter',Helvetica] hover:from-[#0056c7] hover:to-[#0066e6] hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-300 relative z-10 group"
+          className="w-[459px] h-[86px] bg-[#004aad] rounded-[20px] border-[5px] border-solid border-white text-white text-[32px] font-normal font-['Inter',Helvetica] hover:bg-[#0056c7] hover:scale-105 hover:shadow-lg transition-all duration-300"
+          onClick={handleClick}
         >
-          <span className="relative z-10">資料請求はこちら</span>
-          <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 rounded-[15px] transition-opacity duration-300" />
+          資料請求はこちら
         </Button>
       </div>
       <div className="block md:hidden w-full flex justify-center mt-8">
         <Button 
-          className="w-4/5 h-16 bg-gradient-to-r from-[#004aad] to-[#0056c7] rounded-[20px] border-[3px] border-solid border-white text-white text-xl font-bold font-['Inter',Helvetica] hover:from-[#0056c7] hover:to-[#0066e6] hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-300 mb-10 relative z-10 group"
+          className="w-4/5 h-16 bg-[#004aad] rounded-[20px] border-[3px] border-solid border-white text-white text-xl font-normal font-['Inter',Helvetica] hover:bg-[#0056c7] hover:scale-105 hover:shadow-lg transition-all duration-300 mb-10"
           onClick={handleClick}
         >
-          <span className="relative z-10">資料請求はこちら</span>
-          <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 rounded-[15px] transition-opacity duration-300" />
+          資料請求はこちら
         </Button>
       </div>
     </>
