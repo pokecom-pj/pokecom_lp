@@ -107,12 +107,12 @@ export const ServicesSection = (): JSX.Element => {
     <section className="w-full py-24 bg-[#e9f0ff]">
       <div className="container mx-auto">
         <AnimatedSection>
-          <h2 className="text-center font-serif text-[64px] font-bold mb-16">
+          <h2 className="text-center font-serif text-4xl md:text-[64px] font-bold mb-16">
             <span className="text-blue-600">スマート受付</span>
             <span className="text-black">で混雑や集計をゼロに</span>
           </h2>
         </AnimatedSection>
-        <div className="grid grid-cols-2 gap-8 max-w-[1200px] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1200px] mx-auto">
           {serviceCards.map((card, index) => (
             <AnimatedSection
               key={card.id}

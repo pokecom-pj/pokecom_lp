@@ -79,16 +79,16 @@ const FeatureCard: React.FC<FeatureCard> = ({ title, description, bgColor, iconC
   >
     <CardContent className="p-0 h-full">
       <div
-        className={`${iconColor} w-[90px] h-[90px] rounded-[45px] absolute top-[30px] left-[29px] flex items-center justify-center`}
+        className={`${iconColor} w-[90px] h-[90px] rounded-[45px] absolute top-[30px] left-1/2 -translate-x-1/2 md:left-[29px] md:translate-x-0 flex items-center justify-center`}
       >
         <Icon className="w-12 h-12 text-white" />
       </div>
 
-      <div className="absolute top-[152px] left-[89px] [font-family:'Noto_Serif_JP',Helvetica] font-bold text-black text-[32px] tracking-[0] whitespace-nowrap leading-normal">
+      <div className="absolute top-[152px] left-1/2 -translate-x-1/2 md:left-[89px] md:translate-x-0 [font-family:'Noto_Serif_JP',Helvetica] font-bold text-black text-[32px] tracking-[0] whitespace-nowrap leading-normal">
         {title}
       </div>
 
-      <div className="absolute top-[226px] left-7 [font-family:'Noto_Serif_JP',Helvetica] font-bold text-black text-xl tracking-[0] whitespace-nowrap leading-normal">
+      <div className="absolute top-[226px] left-1/2 -translate-x-1/2 md:left-7 md:translate-x-0 [font-family:'Noto_Serif_JP',Helvetica] font-bold text-black text-xl tracking-[0] leading-normal w-[90%] md:w-auto text-center md:text-left">
         {description}
       </div>
     </CardContent>
@@ -100,11 +100,20 @@ export const CallToActionSection = (): JSX.Element => {
     <section className="w-full py-16 bg-white">
       <div className="container mx-auto">
         <AnimatedSection>
-          <h2 className="text-center font-serif text-[64px] font-bold mb-16">
-            <span className="text-black">煩雑な避難所業務、</span><br />
-            <span className="text-blue-600">ONEシステム</span>
-            <span className="text-black">でまるごと解決</span>
-          </h2>
+          <div className="hidden md:block">
+            <h2 className="text-center font-serif text-[64px] font-bold mb-16">
+              <span className="text-black">煩雑な避難所業務、</span><br />
+              <span className="text-blue-600">ONEシステム</span>
+              <span className="text-black">でまるごと解決</span>
+            </h2>
+          </div>
+          <div className="block md:hidden">
+            <h2 className="text-center font-serif text-3xl font-bold mb-8">
+              <span className="text-black">煩雑な避難所業務、</span><br />
+              <span className="text-blue-600">ONEシステム</span><br />
+              <span className="text-black">でまるごと解決</span>
+            </h2>
+          </div>
         </AnimatedSection>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {featureCards.map((card, index) => (
