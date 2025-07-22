@@ -5,10 +5,10 @@ const EvacuationPhotos: React.FC = () => {
     <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-[32px] font-bold text-black [font-family:'Noto_Serif_JP',Helvetica] leading-normal mb-4">
+          <h2 className="text-[32px] font-bold text-black font-sans leading-normal mb-4">
             実際の避難訓練の様子
           </h2>
-          <p className="text-xl font-normal text-black [font-family:'Noto_Serif_JP',Helvetica] tracking-[2.00px] leading-normal">
+          <p className="text-xl font-normal text-black font-sans tracking-[2.00px] leading-normal">
             緊急時における適切な対応を身につけるための訓練を実施しています
           </p>
         </div>
@@ -34,7 +34,7 @@ const EvacuationPhotos: React.FC = () => {
         </div>
         
         <div className="text-center mt-12">
-          <p className="text-lg font-normal text-black [font-family:'Noto_Serif_JP',Helvetica] tracking-[1.00px] leading-normal">
+          <p className="text-lg font-normal text-black font-sans tracking-[1.00px] leading-normal">
             ※ 写真は実際の避難訓練時に撮影されたものです
           </p>
         </div>

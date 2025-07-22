@@ -92,7 +92,7 @@ const ServiceCard: React.FC<{ card: ServiceCard }> = ({ card }) => (
       <CardContent className="p-0 h-full flex flex-col items-center">
         <ServiceIcon card={card} />
         <div
-          className="mt-auto mb-8 text-center [font-family:'Noto_Serif_JP',Helvetica] font-bold text-blue-600 text-[32px]"
+          className="mt-auto mb-8 text-center font-sans font-bold text-blue-600 text-[32px]"
           style={{ whiteSpace: "pre-line" }}
         >
           {card.title}
@@ -107,7 +107,7 @@ export const ServicesSection = (): JSX.Element => {
     <section className="w-full py-24 bg-[#e9f0ff]">
       <div className="container mx-auto">
         <AnimatedSection>
-          <h2 className="text-center font-serif text-4xl md:text-[64px] font-bold mb-16">
+          <h2 className="text-center font-sans text-4xl md:text-[64px] font-bold mb-16">
             <span className="text-blue-600">スマート受付</span>
             <span className="text-black">で混雑や集計をゼロに</span>
           </h2>

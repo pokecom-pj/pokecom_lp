@@ -68,12 +68,12 @@ const FeatureCard: React.FC<FeatureCard> = ({ title, description, imageSrc, imag
       <CardContent className="p-0">
         <div className="relative">
           <div className="flex items-center justify-center h-[60px] bg-gray-50">
-            <h3 className="text-2xl font-bold text-black [font-family:'Noto_Serif_JP',Helvetica] text-center leading-normal">
+            <h3 className="text-2xl font-bold text-black font-sans text-center leading-normal">
               {title}
             </h3>
           </div>
           <div className="w-full h-[150px] bg-[#d9d9d980] border-t border-gray-200 p-4">
-            <p className="text-xl font-normal text-black [font-family:'Noto_Serif_JP',Helvetica] tracking-[2.00px] leading-normal whitespace-pre-line">
+            <p className="text-xl font-normal text-black font-sans tracking-[2.00px] leading-normal whitespace-pre-line">
               {description}
             </p>
           </div>
@@ -91,7 +91,7 @@ export const FeaturesSection = (): JSX.Element => {
         <div className="flex flex-col items-center">
           {/* Section Title */}
           <div className="mb-16 pb-4 border-b-[3px] border-white text-center w-full max-w-2xl animate-fadeInUp">
-            <h2 className="text-[32px] font-bold text-black [font-family:'Noto_Serif_JP',Helvetica] leading-normal">
+            <h2 className="text-[32px] font-bold text-black font-sans leading-normal">
               避難所運営でこんな悩みはありませんか？
             </h2>
           </div>

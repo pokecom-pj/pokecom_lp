@@ -19,11 +19,11 @@ const fadeInUpStyle = `
 
 const MainHeading: React.FC = () => (
   <>
-    <div className="hidden md:block absolute top-[113px] left-[55px] font-['Inter',Helvetica] font-normal text-[110px] animate-fadeInUp">
+    <div className="hidden md:block absolute top-[113px] left-[55px] font-sans font-normal text-[110px] animate-fadeInUp">
       <span className="text-[#ffbd59]">「混乱ゼロ」</span>
       <span className="text-white">の<br />避難所運営へ。</span>
     </div>
-    <div className="block md:hidden w-full text-center font-['Inter',Helvetica] font-normal text-5xl mt-8 px-2 relative z-10 animate-fadeInUp">
+    <div className="block md:hidden w-full text-center font-sans font-normal text-5xl mt-8 px-2 relative z-10 animate-fadeInUp">
       <span className="text-[#ffbd59]">「混乱ゼロ」</span>
       <span className="text-white">の<br />避難所運営へ。</span>
     </div>
@@ -32,12 +32,12 @@ const MainHeading: React.FC = () => (
 
 const Subheading: React.FC = () => (
   <>
-    <div className="hidden md:block absolute top-[458px] left-[120px] font-['Inter',Helvetica] font-normal text-5xl animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
+    <div className="hidden md:block absolute top-[458px] left-[120px] font-sans font-normal text-5xl animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
       <span className="text-white">ポケコムが、現場の不安を<br /></span>
       <span className="text-[#ffbd59]">「見える化」</span>
       <span className="text-white">します。</span>
     </div>
-    <div className="block md:hidden w-full text-center font-['Inter',Helvetica] font-normal text-2xl mt-4 px-4 relative z-10 animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
+    <div className="block md:hidden w-full text-center font-sans font-normal text-2xl mt-4 px-4 relative z-10 animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
       <span className="text-white">ポケコムが、現場の不安を<br /></span>
       <span className="text-[#ffbd59]">「見える化」</span>
       <span className="text-white">します。</span>
@@ -47,12 +47,12 @@ const Subheading: React.FC = () => (
 
 const Description: React.FC = () => (
   <>
-    <div className="hidden md:block absolute top-[610px] left-[70px] font-['Inter',Helvetica] font-normal text-white text-[32px] animate-fadeInUp" style={{ animationDelay: '0.6s' }}>
+    <div className="hidden md:block absolute top-[610px] left-[70px] font-sans font-normal text-white text-[32px] animate-fadeInUp" style={{ animationDelay: '0.6s' }}>
       受付から情報共有、備蓄管理まで。
       <br />
       すべてが一つにまとまった避難所運営支援システム。
     </div>
-    <div className="block md:hidden w-full text-center font-['Inter',Helvetica] font-normal text-white text-base mt-6 px-4 relative z-10 animate-fadeInUp" style={{ animationDelay: '0.6s' }}>
+    <div className="block md:hidden w-full text-center font-sans font-normal text-white text-base mt-6 px-4 relative z-10 animate-fadeInUp" style={{ animationDelay: '0.6s' }}>
       受付から情報共有、備蓄管理まで。
       <br />
       すべてが一つにまとまった避難所運営支援システム。
@@ -62,10 +62,10 @@ const Description: React.FC = () => (
 
 const Note: React.FC = () => (
   <>
-    <div className="hidden md:block absolute top-[715px] left-[70px] font-['Inter',Helvetica] font-normal text-white text-[24px] animate-fadeInUp" style={{ animationDelay: '0.7s' }}>
+    <div className="hidden md:block absolute top-[715px] left-[70px] font-sans font-normal text-white text-[24px] animate-fadeInUp" style={{ animationDelay: '0.7s' }}>
       ※自治体防災関係者へのご案内
     </div>
-    <div className="block md:hidden w-full text-center font-['Inter',Helvetica] font-normal text-white text-sm mt-4 px-4 relative z-10 animate-fadeInUp" style={{ animationDelay: '0.7s' }}>
+    <div className="block md:hidden w-full text-center font-sans font-normal text-white text-sm mt-4 px-4 relative z-10 animate-fadeInUp" style={{ animationDelay: '0.7s' }}>
       ※自治体防災関係者へのご案内
     </div>
   </>
@@ -104,7 +104,7 @@ const CTAButton: React.FC = () => {
     <>
       <div className="hidden md:block absolute bottom-[94px] left-[138px]">
         <Button 
-          className="w-[459px] h-[86px] bg-[#004aad] rounded-[20px] border-[5px] border-solid border-white text-white text-[32px] font-normal font-['Inter',Helvetica] hover:bg-[#0056c7] hover:scale-105 hover:shadow-lg transition-all duration-300"
+          className="w-[459px] h-[86px] bg-[#004aad] rounded-[20px] border-[5px] border-solid border-white text-white text-[32px] font-normal font-sans hover:bg-[#0056c7] hover:scale-105 hover:shadow-lg transition-all duration-300"
           onClick={handleClick}
         >
           資料請求はこちら
@@ -112,7 +112,7 @@ const CTAButton: React.FC = () => {
       </div>
       <div className="block md:hidden w-full flex justify-center mt-8 relative z-[2]">
         <Button 
-          className="w-4/5 h-16 bg-[#004aad] rounded-[20px] border-[3px] border-solid border-white text-white text-xl font-normal font-['Inter',Helvetica] hover:bg-[#0056c7] hover:scale-105 hover:shadow-lg transition-all duration-300 mb-10"
+          className="w-4/5 h-16 bg-[#004aad] rounded-[20px] border-[3px] border-solid border-white text-white text-xl font-normal font-sans hover:bg-[#0056c7] hover:scale-105 hover:shadow-lg transition-all duration-300 mb-10"
           onClick={handleClick}
         >
           資料請求はこちら
