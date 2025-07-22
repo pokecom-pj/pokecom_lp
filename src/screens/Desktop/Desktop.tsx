@@ -6,12 +6,14 @@ import { ServicesSection } from "./sections/ServicesSection";
 import { TestimonialsSection } from "./sections/TestimonialsSection";
 import ScrollToTop from "../../components/ScrollToTop";
 import FloatingBanner from "../../components/FloatingBanner";
+import EvacuationPhotos from "../../components/EvacuationPhotos";
 
 const sections = [
   { Component: TestimonialsSection, id: "testimonials" },
   { Component: FeaturesSection, id: "features" },
   { Component: ServicesSection, id: "services" },
   { Component: CallToActionSection, id: "cta" },
+  { Component: EvacuationPhotos, id: "evacuation" },
   { Component: OverviewSection, id: "overview" },
 ];
 
