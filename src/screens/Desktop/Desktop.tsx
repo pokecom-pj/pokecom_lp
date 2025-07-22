@@ -4,6 +4,8 @@ import { FeaturesSection } from "./sections/FeaturesSection";
 import { OverviewSection } from "./sections/OverviewSection";
 import { ServicesSection } from "./sections/ServicesSection";
 import { TestimonialsSection } from "./sections/TestimonialsSection";
+import ScrollToTop from "../../components/ScrollToTop";
+import FloatingBanner from "../../components/FloatingBanner";
 
 const sections = [
   { Component: TestimonialsSection, id: "testimonials" },
@@ -23,6 +25,8 @@ export const Desktop = (): JSX.Element => {
           </section>
         ))}
       </div>
+      <ScrollToTop />
+      <FloatingBanner />
     </main>
   );
 };

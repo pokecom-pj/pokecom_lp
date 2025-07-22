@@ -21,4 +21,4 @@ RUN if [ "$USER_GID" != "1000" ] || [ "$USER_UID" != "1000" ]; then \
     fi
 
 # ユーザーを切り替え
-USER $USERNAME 
+USER root
